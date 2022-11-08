@@ -2,122 +2,48 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+---
+MKA Tech Reading List
+---
+<div>
+  <div id="table-of-contents">
+    {% toc %}
+  </div>
+  <div id="markdown-content">
+    {{ content }}
+  </div>
+</div>
 
-[Link to another page](./another-page.html).
+## Outlook
 
-There should be whitespace between paragraphs.
+*   [Outlook Videos](https://learn.microsoft.com/en-us/training/browse/?expanded=office&products=office-outlook)
+*   [Outlook Courses](https://support.microsoft.com/en-us/office/outlook-training-8a5b816d-9052-4190-a5eb-494512343cca)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Gmail
 
-# Header 1
+*   [Gmail for beginners](https://support.google.com/a/users/answer/9259748?hl=en)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## PowerPoint
 
-## Header 2
+*   [PowerPoint courses](https://learn.microsoft.com/en-us/training/browse/?expanded=office&products=office-powerpoint)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Excel
 
-### Header 3
+*   [Excel Videos](https://learn.microsoft.com/en-us/training/browse/?expanded=office&products=office-excel)
+*   [Excel Courses](https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## General computing
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+*   [Khan Academy Computing](https://www.khanacademy.org/computing)
 
-#### Header 4
+## Python
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   [Free Interactive Python tutorial](https://www.learnpython.org/)
+*   [Google Python Guide](ttps://developers.google.com/edu/python?hl=en)
+*   [Programiz Python](https://www.programiz.com/python-programming)
 
-##### Header 5
+## SQL
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+*   [Free Interactive SQL exercise](http://www.sqlbolt.com)
+*   [Khan Academy SQK](https://www.khanacademy.org/computing/computer-programming/sql)
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
