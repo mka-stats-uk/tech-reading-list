@@ -5,15 +5,6 @@ layout: default
 ---
 MKA Tech Reading List
 ---
-<div>
-  <div id="table-of-contents">
-    {% toc %}
-  </div>
-  <div id="markdown-content">
-    {{ content }}
-  </div>
-</div>
-
 ## Outlook
 
 *   [Outlook Videos](https://learn.microsoft.com/en-us/training/browse/?expanded=office&products=office-outlook)
